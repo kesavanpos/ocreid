@@ -1,0 +1,11 @@
+{
+  "main": "main.js",
+  "discardUncaughtJsExceptions": true,
+  "android": {
+    "v8Flags": "--expose_gc",
+    "markingMode": "none"
+  },
+    "ios": {
+        "jscFlags": "--dumpOptions=2 --validateOptions=1"
+    }
+}

@@ -1,0 +1,11 @@
+framework module IDCardToolkit {
+  umbrella header "IDCardToolkit.h"
+
+  export *
+  module * { export * }
+}
+
+module IDCardToolkit.Swift {
+    header "IDCardToolkit-Swift.h"
+    requires objc
+}
