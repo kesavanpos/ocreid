@@ -50,6 +50,28 @@
     return strValue;
 }
 
+-(NSString *)ShowConfigPath{
+    NSArray *arrPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory , NSUserDomainMask, YES);
+    NSString *documentsDir = [arrPaths objectAtIndex:0];
+    NSString *fileName = [NSString stringWithFormat:@"%@",[documentsDir stringByAppendingPathComponent:@""]];
+   
+    NSString *default_config_paramsPath = [NSString stringWithFormat:@"%@",fileName];
+
+    return default_config_paramsPath;
+}
+
+
+-(NSString *)ShowLogPath{
+    NSArray *arrPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory , NSUserDomainMask, YES);
+    NSString *documentsDir = [arrPaths objectAtIndex:0];
+    NSString *fileName = [NSString stringWithFormat:@"%@",[documentsDir stringByAppendingPathComponent:@""]];
+    NSString *default_log_paramsPath = [NSString stringWithFormat:@"%@/",fileName];
+    
+
+    return default_log_paramsPath;
+}
+
+
 -(int)logInteger{
     return 56;
 }

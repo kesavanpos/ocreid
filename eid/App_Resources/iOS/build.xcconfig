@@ -1,7 +1,9 @@
 // You can add custom settings here
 // for example you can uncomment the following line to force distribution code signing
 // CODE_SIGN_IDENTITY = iPhone Distribution 
+// S27T7MSAV9
 // To build for device with Xcode 8 you need to specify your development team. More info: https://developer.apple.com/library/prerelease/content/releasenotes/DeveloperTools/RN-Xcode/Introduction.html
-DEVELOPMENT_TEAM = S27T7MSAV9;
+DEVELOPMENT_TEAM = PV8QYJAWDY;
 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+//PROVISIONING_PROFILE = 0ad8022d-a954-4cad-8671-6ba606b92aae

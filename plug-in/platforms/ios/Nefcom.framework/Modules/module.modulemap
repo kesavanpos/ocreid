@@ -1,0 +1,6 @@
+framework module Nefcom {
+  umbrella header "Nefcom.h"
+
+  export *
+  module * { export * }
+}

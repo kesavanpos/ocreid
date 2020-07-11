@@ -26,8 +26,6 @@
 	<string>LaunchScreen</string>
 	<key>UIRequiresFullScreen</key>
 	<true/>
-	<key>Application supports iTunes file sharing</key>
-	<true/>
 	<key>UIFileSharingEnabled</key>
 	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -46,6 +44,31 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>external-accessory</string>
+		<string>bluetooth-peripheral</string>
+		<string>bluetooth-central</string>
+	</array>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.ftsate.iR301</string>
+		<string>com.ftsafe.bR301</string>
+		<string>com.keyxentic.kxpos01</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>nsappeidtesting</string>
+			</array>
+		</dict>
 	</array>
 </dict>
 </plist>

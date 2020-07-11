@@ -1,3 +1,3 @@
-vg_url=http://vg-pre-prod.ica.gov.ae/ValidationGatewayService
+vg_url=http://172.16.11.13/ValidationGatewayService
 read_publicdata_offline = true
 
